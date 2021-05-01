@@ -244,6 +244,9 @@ nav a:hover {
   background-size: cover;
   background-position: top center;
   background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contacts {
@@ -309,4 +312,20 @@ nav a:hover {
   .drink {
     width: 33.333%;
   }
+}
+@media screen and (min-width: 768px) {
+  .nav-btn {
+    display: none;
+  }
+}
+
+.galleryText {
+  background-color: rgba(161, 159, 159, 0.733);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.galleryText p {
+  width: 60%;
+  text-align: center;
 }
